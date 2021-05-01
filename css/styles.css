@@ -17,9 +17,6 @@ body {
 ul {
   list-style: none;
 }
-a {
-  text-decoration: none;
-}
 /*INDEX-html-page*/
 .main-title-index {
   color: #ffffff;
@@ -91,6 +88,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .accent-logo {
   color: #212121;
@@ -106,6 +104,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--text-hover);
@@ -123,6 +122,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .header-cont .link:focus,
 .header-cont .link:hover {
@@ -177,10 +177,12 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .footer-adress:hover,
 .footer-adress:focus {
   color: var(--text-hover);
+  text-decoration: none;
 }
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
@@ -189,6 +191,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .footer-contact:hover,
 .footer-contact:focus {
