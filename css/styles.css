@@ -10,9 +10,9 @@
   --footer-contacts: rgba(255, 255, 255, 0.6);
 }
 body {
-  background-color: #ffffff;
+  background-color: gainsboro;
   color: #212121;
-  font-family: Roboto, Raleway;
+  font-family: Roboto, sans-serif;
 }
 ul {
   list-style: none;
@@ -22,12 +22,12 @@ a {
 }
 /*INDEX-html-page*/
 .main-title-index {
-  color: coral; /* #ffffff;*/
+  color: #ffffff;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 }
 .button-index {
   color: #ffffff;
@@ -38,9 +38,9 @@ a {
   color: var(--main-text);
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -48,18 +48,18 @@ a {
   color: var(--secondary-text);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .bottom-titles-index {
   color: var(--main-text);
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -69,7 +69,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -77,9 +77,9 @@ a {
   color: var(--secondary-text);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -88,9 +88,15 @@ a {
   color: var(--color-logos);
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+}
+.accent-logo {
+  color: #212121;
+}
+.accent-white {
+  color: #ffffff;
 }
 .site-nav .link {
   color: var(--main-text);
@@ -98,7 +104,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav .link.current {
@@ -115,7 +121,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .header-cont .link:focus,
@@ -125,16 +131,18 @@ a {
 /*main-buttons*/
 .hidden-elements {
   display: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
 }
 .buttons {
   color: var(--buttons-text);
   background: var(--buttons-main-bcg);
   cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .buttons.active:hover,
 .buttons.active:focus {
@@ -147,38 +155,40 @@ a {
   color: var(--main-text);
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .port-texts {
   color: var(--secondary-text);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 /*footer*/
 .footer-adress {
-  color: coral; /* var(--buttons-text-active);*/
+  color: var(--buttons-text-active);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 .footer-adress:hover,
 .footer-adress:focus {
   color: var(--text-hover);
 }
 .footer-contact {
-  color: coral /* rgba(255, 255, 255, 0.6);*/;
+  color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 .footer-contact:hover,
 .footer-contact:focus {
