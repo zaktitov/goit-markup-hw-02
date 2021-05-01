@@ -1,0 +1,80 @@
+:root {
+  --main-text: #212121;
+  --secondary-text: #757575;
+  --text-hover: #2196f3;
+  --color-logos: #2196f3;
+  --buttons-text: #212121;
+  --buttons-text-active: #ffffff;
+  --buttons-main-bcg: #f5f4fa;
+  --buttons-active-bcg: #2196f3;
+}
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, Raleway, Lato;
+}
+/*site-nav*/
+.logo {
+  color: var(--color-logos);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.site-nav .link {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+  color: var(--text-hover);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-hover);
+}
+/*header contacts*/
+.header-cont .link {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.header-cont .link:focus,
+.header-cont .link:hover {
+  color: #2196f3;
+}
+/*main-buttons*/
+.hiden-elements {
+  display: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.buttons {
+  color: var(--buttons-text);
+  background: var(--buttons-main-bcg);
+  cursor: pointer;
+}
+.buttons.active:hover,
+.buttons.active:focus {
+  color: var(--buttons-text-active);
+  background: var(--buttons-active-bcg);
+  cursor: pointer;
+}
+/*main-content-list*/
