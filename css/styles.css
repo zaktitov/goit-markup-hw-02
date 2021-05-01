@@ -12,7 +12,7 @@
 body {
   background-color: #ffffff;
   color: #212121;
-  font-family: Roboto, Raleway, Lato;
+  font-family: Roboto, Raleway;
 }
 ul {
   list-style: none;
@@ -20,7 +20,70 @@ ul {
 a {
   text-decoration: none;
 }
-/*site-nav*/
+/*INDEX-html-page*/
+.main-title-index {
+  color: coral; /* #ffffff;*/
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.button-index {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.lower-titles-index {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.secondary-text-index {
+  color: var(--secondary-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.bottom-titles-index {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-names {
+  color: var(--main-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.names-discription {
+  color: var(--secondary-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*PORTFOLIO-NAV*/
 .logo {
   color: var(--color-logos);
   font-family: Raleway;
@@ -60,7 +123,7 @@ a {
   color: #2196f3;
 }
 /*main-buttons*/
-.hiden-elements {
+.hidden-elements {
   display: none;
   font-family: Roboto;
   font-style: normal;
