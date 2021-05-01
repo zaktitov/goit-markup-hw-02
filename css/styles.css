@@ -105,6 +105,10 @@ a {
   font-size: 14px;
   line-height: 24px;
 }
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--text-hover);
+}
 .footer-contact {
   color: coral /* rgba(255, 255, 255, 0.6);*/;
   font-family: Roboto;
@@ -112,4 +116,8 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--text-hover);
 }
